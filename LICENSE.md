@@ -1,2 +1,2 @@
 
-Copyright (C) 2020 Colleen
+Copyright (C) 2020 Triangles in Space
