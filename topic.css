@@ -1,0 +1,246 @@
+
+
+#generator {
+  display: block;
+  /*position: absolute;*/
+}
+
+#generated {
+  display: block;
+  /*position: absolute;*/
+
+}
+#result {
+    /*position: absolute;*/
+
+}
+.centerlogo {
+  display: block;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  button.cooldown {
+  background: #336699;
+  min-height: 48px;
+  min-width: 144px;
+  position: relative;
+  margin: 5px;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+button.cooldown:active, button.cooldown:focus {
+  outline: none;
+}
+button.cooldown:disabled {
+  background: #264d73;
+  color: #d9d9d9;
+  cursor: default;
+  box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+button.cooldown:disabled:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  background: #1a334d;
+  -webkit-animation: cooldown 60s linear;
+          animation: cooldown 60s linear;
+}
+
+@-webkit-keyframes cooldown {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes cooldown {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+/* layout stuff */
+section {
+  text-align: center;
+  margin-top: 100px;
+  color: #333;
+}
+
+p {
+  font-size: 12px;
+}
+button {
+  background-color: #ffffff; /* Green */
+  border: 1px;
+  border-color: #1A2F64;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 4px 4px #1A2F64;
+
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin:0 auto;
+  max-width:1140px;
+}
+
+.rules{
+  /*position: absolute;*/
+  display: inline-block;
+  width: 75%vw;
+  text-align: left;
+  border: 1px solid #1A2F64;
+  margin: 5% auto;
+  padding: 5%;
+  box-shadow: 4px 4px #1A2F64;
+}
+
+#what{
+  /*position: absolute;*/
+  margin: auto;
+  text-align: center;           
+  bottom: 0;
+}
+
+
+header {
+  display: inline-block;
+  width: 100%;
+  margin:0px auto;
+}
+footer {
+  display: block;
+}
+
+
+a {
+    color: rgba(0,0,0,0.7);
+  }
+
+html { font-size: 75%; /*12px*/ }
+
+
+body {
+font-size: 1.3rem; /*12px*/
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*min-height: 100vh;*/
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255,255,255,.9);
+}
+
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  /*text-transform: uppercase;*/
+  /*font-size: 10rem;*/
+  /*font-size: calc(5rem + 15vw);*/
+  font-size: 18vw;
+  line-height: .9;
+  margin: 0;
+  padding: 0;
+  color: #f98ca4;
+  /*-webkit-text-stroke: 1px #1A2F64; */
+  text-shadow: 
+  -1px 1px #1A2F64,
+  1px -1px #1A2F64,
+  -1px -1px #1A2F64,
+  1px 1px #1A2F64,
+  4px 4px #1A2F64;
+  text-transform: uppercase;
+
+
+  /*text-stroke: 1px #1A2F64;*/
+
+  /*text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 8px 8px 4px #dac249;
+*/
+}
+
+h2 {
+  /*font-family: "CoreCircus", sans-serif;*/
+  font-family: 'Bebas Neue', sans-serif;
+  /*text-transform: uppercase;*/
+  width: 70vw; /*100% of viewport width*/
+  font-size: calc(20px + 8vw);
+
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: #f98ca4;
+  -webkit-text-stroke: 1px #1A2F64; 
+  text-shadow: 3px 3px #1A2F64;
+
+  /*color: #f98ca4;*/
+  /*text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 8px 8px 4px #dac249;
+*/
+}
+
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+  /*text-transform: uppercase;*/
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: #f98ca4;
+  /*-webkit-text-stroke: .7px #1A2F64; */
+  display:inline;
+  /*font-size: 3vw;*/
+  font-size: 2rem; /*15px*/
+
+}
+
+h4 {
+  color: rgba(255,255,255,1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  margin: 20;
+  padding: 20;
+}
+/*
+div {
+  padding: 1%;
+}
+*/
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+}

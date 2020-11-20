@@ -1,0 +1,176 @@
+
+
+#generator {
+  display: block;
+}
+
+#generated {
+  display: block;
+}
+
+button {
+  background-color: #FFFFFF; /* White */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 12px;
+}
+button:active {
+  transform: translateY(4px);
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  margin:0 auto;
+  max-width:1140px;
+}
+
+.rules{
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+
+/* Clear floats after the columns */
+.rules:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:800px) {
+  .rules {
+    width: 100%;
+  }
+}
+
+#credits{
+  display: inline-block;
+  margin: 0;
+  width: 80vw;
+  text-align: left;
+  /*border: 3px solid #73AD21;*/
+  background-color: rgba(0,0,0,.2);
+}
+
+
+#thanks{
+  display: inline-block;
+  text-align: left;
+  max-width: 10% vw;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 50px
+  margin-right: 50px;
+  margin-bottom: 5px;
+  /*border: 3px solid #73AD21;*/
+  background-color: rgba(255,255,255,.10);
+}
+    
+header {
+  display: inline-block;
+  width: 100%;
+  margin:0px auto;
+}
+
+a {
+    color: rgba(0,0,0,0.7);
+  }
+
+
+body {
+  margin: 20;
+  padding: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*min-height: 100vh;*/
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255,255,255,.9);
+}
+
+
+h1 {
+  font-family: "CoreCircus", sans-serif;
+  text-transform: uppercase;
+  /*width: 100vw; 100% of viewport width */
+  letter-spacing: -9px;
+  font-size: 8vw;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+
+  color: #f98ca4;
+  text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 8px 8px 4px #dac249;
+}
+
+h2 {
+  /*font-family: "CoreCircus", sans-serif;*/
+  font-family: 'Bebas Neue', cursive;
+  display:inline
+  /*text-transform: uppercase;*/
+  /*letter-spacing: -9px;*/
+  font-size: 4vw;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: rgba(255,255,255,1);
+
+  /*color: #f98ca4;*/
+  /*text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 8px 8px 4px #dac249;
+*/
+}
+
+h3 {
+  color: rgba(255,255,255,1);
+  font-family: 'Bebas Neue', cursive;
+  display:inline;
+  font-size: 3vw;
+  color: rgba(255,255,255,.7);
+
+}
+
+h4 {
+  color: rgba(255,255,255,1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+p {
+  margin: 20;
+  padding: 20;
+}
+
+div {
+  padding:20px;
+}
+
+
+
+font-family: 'Bebas Neue', cursive;
+
+@font-face {
+  font-family: "CoreCircus2DDot1";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CoreCircus";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CoreCircusPierrot4";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.ttf") format("truetype");
+}
