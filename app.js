@@ -32,7 +32,7 @@ var pick = function(array) {
 function doIt(key) {
     console.log(key);
 
-      var $genButton = $('<div id="generator" style="text-align: center;"><p><h1 id="generated">...</h1></p></div>');
+      var $genTopic = $('<div id="generator" style="text-align: center;"><p><h1 id="generated">...</h1></p></div>');
   
 
   ds = new Miso.Dataset({
@@ -48,7 +48,7 @@ function doIt(key) {
         $('#generator').remove();
       }
       //$('#result').text('Success! Now you can generate stuff:');
-      $('#result').after($genButton);
+      $('#result').after($genTopic);
       generated = true;
       generate();
     },
